@@ -1,0 +1,20 @@
+{
+  "name": "@qingji/antd-compose-table",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.tsx",
+  "keywords": [
+    "antd"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ant-design/icons": "^4.1.0",
+    "@babel/runtime": "^7.18.0",
+    "classnames": "^2.2.6",
+    "moment": "^2.24.0"
+  }
+}

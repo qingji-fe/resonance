@@ -1,0 +1,44 @@
+{
+  "name": "@qingji/babel-plugin-directives",
+  "version": "1.0.4",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && babel src/index.js -d lib",
+    "test": "node test/index.js"
+  },
+  "keywords": [
+    "babel-plugin",
+    "babel",
+    "plugin"
+  ],
+  "files": [
+    "lib",
+    "package.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qingji-fe/babel-plugins-directives.git"
+  },
+  "author": "xingdongyu1994",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qingji-fe/babel-plugins-directives/issues"
+  },
+  "homepage": "https://github.com/qingji-fe/babel-plugins-directives#readme",
+  "dependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/generator": "^7.9.5",
+    "@babel/parser": "^7.9.4",
+    "@babel/plugin-syntax-jsx": "^7.8.3",
+    "@babel/plugin-transform-react-display-name": "^7.8.3",
+    "@babel/plugin-transform-react-jsx": "^7.9.4",
+    "@babel/plugin-transform-typescript": "^7.18.6",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-typescript": "^7.17.12",
+    "@babel/traverse": "^7.9.5",
+    "@babel/types": "^7.9.5"
+  }
+}
