@@ -1,5 +1,5 @@
 {
-  "name": "qjhooks",
+  "name": "@qingji/hooks",
   "version": "1.0.0",
   "description": "一个自定义 React Hooks 库。",
   "main": "./lib/index.js",
@@ -44,6 +44,5 @@
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-typescript2": "^0.31.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
