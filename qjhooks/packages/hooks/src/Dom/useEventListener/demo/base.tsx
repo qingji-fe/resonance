@@ -1,7 +1,7 @@
 
 import React, { useState, useRef } from 'react';
 import { Button } from 'antd';
-import useEventListener from '../index';
+import {useEventListener} from '@qingji/hooks';
 
 export default () => {
   const [value, setValue] = useState(0);

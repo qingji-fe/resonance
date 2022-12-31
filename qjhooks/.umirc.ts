@@ -7,7 +7,7 @@ export default defineConfig({
   resolve: {
     includes: ['docs'],
   },
-  title: 'qjhooks',
+  title: '@qingji/hooks',
   favicon: './logo.svg',
   logo: './logo.svg',
   outputPath: 'docs-dist',
