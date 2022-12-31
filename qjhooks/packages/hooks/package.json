@@ -28,6 +28,10 @@
     "README.md"
   ],
   "author": "qingji-xdy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qingji-fe/resonance/tree/main/qjhooks"
+  },
   "license": "ISC",
   "peerDependencies": {
     "react": "^16.8.6 || ^17.0"
