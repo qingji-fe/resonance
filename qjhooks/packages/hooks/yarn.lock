@@ -800,11 +800,6 @@ is-reference@^1.1.2:
   dependencies:
     "@types/estree" "*"
 
-jinrishici@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/jinrishici/-/jinrishici-1.0.6.tgz#1f3e1259de5e889ce1bab00f118248c7c346bd98"
-  integrity sha512-4Bk5VHo6xg9DspGS8y8I7D6kftA6DYy4rSvwpdtxFvh9DidXMgf+NSZKAXrcLTi8S5NjqmwkpAKYPHXRURH64Q==
-
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
@@ -971,11 +966,6 @@ private@^0.1.6:
   version "0.1.8"
   resolved "https://registry.yarnpkg.com/private/-/private-0.1.8.tgz#2381edb3689f7a53d653190060fcf822d2f368ff"
   integrity sha512-VvivMrbvd2nKkiG38qjULzlc+4Vx4wm/whI9pQD35YrARNnhxeiRktSOhSukRLFNlzg6Br/cJPet5J/u19r/mg==
-
-react-fast-compare@^3.2.0:
-  version "3.2.0"
-  resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-3.2.0.tgz#641a9da81b6a6320f270e89724fb45a0b39e43bb"
-  integrity sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==
 
 regenerate@^1.2.1:
   version "1.4.2"
