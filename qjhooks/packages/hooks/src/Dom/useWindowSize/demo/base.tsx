@@ -1,6 +1,6 @@
 
 import React from 'react';
-import useWindowSize from '../index';
+import { useWindowSize } from '@qingji/hooks';
 
 export default () => {
   const { width, height } = useWindowSize()

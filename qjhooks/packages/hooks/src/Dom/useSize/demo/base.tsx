@@ -1,6 +1,6 @@
 
 import React, { useRef } from 'react';
-import useSize from '../index';
+import { useSize } from '@qingji/hooks';
 
 export default () => {
   const ref = useRef(null);

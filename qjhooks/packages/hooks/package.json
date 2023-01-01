@@ -49,6 +49,7 @@
     "rollup-plugin-typescript2": "^0.31.0"
   },
   "dependencies": {
-    "@qingji/hooks": "^1.0.0"
+    "@qingji/hooks": "^1.0.0",
+    "lodash": "^4.17.21"
   }
 }
