@@ -3,7 +3,7 @@ import { isFunction } from '../../utils';
 import { throttle } from 'lodash'
 const noop = () => {};
 
-type callbackHandler = (event: any) => void;
+type callbackHandler = (...args: any[]) => any;
 interface Options {
   wait?: number;
   leading?: boolean;

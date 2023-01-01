@@ -3,7 +3,7 @@ import { isFunction } from '../../utils';
 import { debounce } from 'lodash'
 const noop = () => {};
 
-type callbackHandler = (event: any) => void;
+type callbackHandler = (...args: any[]) => any;
 interface Options {
   wait?: number;
   leading?: boolean;
@@ -24,6 +24,7 @@ const useDebounceFn = (
   
   const debounced = useMemo(()=> debounce(
     (...args) => {
+      console.log("和他个人", args, fnRef.current)
       return fnRef.current(...args);
     },
     wait,
