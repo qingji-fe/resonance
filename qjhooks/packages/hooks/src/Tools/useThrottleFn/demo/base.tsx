@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Button } from 'antd';
-import useThrottleFn from '../index';
+import { useThrottleFn } from '@qingji/hooks';
 
 export default () => {
   const [count, setCount] = useState(0)

@@ -1,7 +1,7 @@
 
 import React, { useState } from 'react';
 import { Button } from 'antd';
-import useDebounceFn from '../index';
+import { useDebounceFn } from '@qingji/hooks';
 
 export default () => {
   const [count, setCount] = useState(0)
