@@ -51,6 +51,14 @@
     "@qingji/hooks" "^1.0.0"
     lodash "^4.17.21"
 
+"@qingji/hooks@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@qingji/hooks/-/hooks-1.0.2.tgz#a7430c15812c0be848c181163afa3fae8c3522f5"
+  integrity sha512-Og9ypb3g0hy8+3ERjb4kAsSYMY8rfuMcQ67l0Lq9jHZH9YX7y3biLtXlw/ORI+AGXjAwFOu8lffEJeswp1lM5Q==
+  dependencies:
+    "@qingji/hooks" "^1.0.1"
+    lodash "^4.17.21"
+
 "@rollup/pluginutils@^4.1.0":
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/@rollup/pluginutils/-/pluginutils-4.1.1.tgz#1d4da86dd4eded15656a57d933fda2b9a08d47ec"
