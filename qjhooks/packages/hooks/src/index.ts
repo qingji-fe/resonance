@@ -5,6 +5,7 @@ import useWindowSize from './Dom/useWindowSize';
 import useDebounceFn from './Tools/useDebounceFn';
 import useThrottleFn from './Tools/useThrottleFn';
 import useToggle from './Tools/useToggle';
+import useLocalStorage from './Tools/useLocalStorage';
 
 export { 
   useEventListener,
@@ -12,5 +13,6 @@ export {
   useWindowSize,
   useDebounceFn,
   useThrottleFn,
-  useToggle
+  useToggle,
+  useLocalStorage
 };
