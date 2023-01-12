@@ -1,0 +1,55 @@
+{
+  "name": "@qingji/web-core",
+  "version": "1.0.3",
+  "description": "一个webComponents框架",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./lib/index.d.ts",
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prerollup-build": "rimraf lib && rimraf es",
+    "rollup-dev": "rollup -c -w",
+    "rollup-build": "rollup -c",
+    "prepublish": "npm run rollup-build"
+  },
+  "keywords": [
+    "react",
+    "webComponent"
+  ],
+  "files": [
+    "lib",
+    "es",
+    "package.json",
+    "README.md"
+  ],
+  "author": "qingji-xdy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qingji-fe/resonance/tree/main/web-components-frame"
+  },
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "^16.8.6 || ^17.0"
+  },
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-latest": "^6.24.1",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.56.3",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-dts": "^4.0.0",
+    "rollup-plugin-json": "^4.0.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.31.0"
+  },
+  "dependencies": {
+    "@qingji/hooks": "^1.0.2",
+    "lodash": "^4.17.21"
+  }
+}
