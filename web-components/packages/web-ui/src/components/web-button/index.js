@@ -1,25 +1,43 @@
-import { Component } from "@qingji/web-core";
+import { Component, Props } from "@qingji/web-core";
+import { extractClass } from '../../utils'
+// import styles from './index.less'
+import styles from '!!raw-loader!./index.less';
+
+console.log('less', styles)
 @Component({
-  name: "web-button"
+  name: "web-button",
+  css: styles
 })
 export class WebButton extends HTMLElement {
-  constructor() {
-    super();
-    // const shadowRoot = this.attachShadow({
-    //   mode: 'open'
-    // })
-    // let newDiv = document.createElement("div");
-    // // 给它一些内容
-    // let newContent = document.createTextNode("Hi there and greetings!");
-    // newDiv.appendChild(newContent);
-    // shadowRoot.appendChild(newDiv)
-    // this._shadowRoot.appendChild(template.content.cloneNode(true));
+  constructor(props) {
+    super(props);
   }
   
+  // disabled
+  @Props({ 
+    default: false,
+    type: 'Boolean'
+  })
+  disabled
+
+  // text
+  @Props({ 
+    default: 'primary',
+    type: 'String'
+  })
+  type
+
+
   render() {
     return(
-      <button>
-        11
+      <button 
+        class={'web-button'}
+        disabled={this.disabled}
+        {...extractClass({}, 'web-button', {
+          [this.type]: this.type
+      })}
+      >
+        <slot/>
       </button>
     );
   }
